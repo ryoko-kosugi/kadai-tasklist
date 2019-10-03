@@ -9,6 +9,11 @@
             {!! Form::model($edittask, ['route' => ['tasklists.update', $edittask->id],'method' => 'put']) !!}
             
                 <div class="form-group">
+                    {!! Form::label('status', 'status:') !!}
+                    {!! Form::text('status', null, ['class' => 'form-control']) !!}
+                </div>
+                
+                <div class="form-group">
                     {!! Form::label('content', 'タスク:') !!}
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>

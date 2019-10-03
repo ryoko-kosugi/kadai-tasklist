@@ -7,7 +7,12 @@
     <div class="row">
         <div class="col-6">
             {!! Form::model($gettask,['route' => 'tasklists.store']) !!}
-            
+                
+                <div class="form-group">
+                    {!! Form::label('status', 'status:(半角10字以内)') !!}
+                    {!! Form::text('status', null, ['class' => 'form-control']) !!}
+                </div>
+                
                 <div class="form-group">
                     {!! Form::label('content', 'タスク:') !!}
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}

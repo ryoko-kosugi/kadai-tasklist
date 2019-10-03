@@ -26,6 +26,7 @@
         </header>
         
         <div class="container">
+            @include('commons.error_tasklists')
             @yield('content')
         </div>
         
