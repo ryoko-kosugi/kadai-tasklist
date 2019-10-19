@@ -18,7 +18,7 @@
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>
             
-                {!! Form::submit('タスクリストに入れる', ['class' => 'btn btn-primary']) !!}
+                {!! Form::submit('タスクリストに入れる', ['class' => 'btn btn-info']) !!}
             
             {!! Form::close() !!}
         </div>
