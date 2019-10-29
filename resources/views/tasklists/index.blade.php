@@ -25,7 +25,7 @@
         </table>
     @endif
     
-    {!! link_to_route('tasklists.create','タスクを作成する', [], ['class' => 'btn btn-primary']) !!}
+    {!! link_to_route('tasklists.create','タスクを作成する', [], ['class' => 'btn btn-info']) !!}
    
 
 @endsection
